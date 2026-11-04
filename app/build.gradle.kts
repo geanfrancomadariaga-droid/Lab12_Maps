@@ -70,6 +70,8 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+    // Google Places SDK
+    implementation("com.google.android.libraries.places:places:4.4.1")
     val mapsComposeVersion = "4.4.1"
 
     implementation("com.google.maps.android:maps-compose:$mapsComposeVersion")
